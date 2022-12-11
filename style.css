@@ -1,0 +1,184 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+nav {
+  margin: 0 !important;
+  padding: 0;
+  position: fixed !important;
+  z-index: 100;
+  background: #e38b29 !important;
+  width: 100%;
+}
+
+a {
+  color: #ffffff !important;
+}
+
+#primeraseccion {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+
+#segundaseccion,
+#terceraseccion {
+  padding: 0 5%;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.about{
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 80px;
+  margin-bottom: 50px;
+  padding: 90px 0 0;
+  color: #e38b29;
+  margin-top: 100px;
+}
+
+h5 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #e38b29;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?w=2000");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0;
+}
+
+.btn-primary {
+  background-color: #e38b29;
+  border: #e38b29;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #e38b29;
+  border: #e38b29;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2)); */
+  font-size: 60px;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  animation: waviy 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+
+.demo1{
+	background-color: #726EC2;
+	border: thin #56538F solid;
+	margin: 50px auto;
+	transition: background-color 0.5s linear;
+	color: white;
+}
+
+.demo1:hover{
+	background-color: #EB5EE0;
+}
+
+.demo2{
+	transition: transform 0.5s,background-color 0.5s;
+  animation: example 4s;
+}
+
+.demo2:hover{
+	transform: scale(1.1);
+}
+
+@keyframes example{
+	0% {background-color: #CEFDFF;left: 0px; top: 0px; }
+	10% {background-color: #BAC2FF; transform: rotate(30deg);left: 0px; top: 0px;}
+	50% {background-color: #DDBEFF; transform: rotate(-30deg);left: 300px; top: 0px;}
+	100% {background-color: #FFBCFA; transform: rotate(-360deg);left: 0px; top: 0px;}
+}
+
+.imgc {
+  max-height: 1000px !important;
+}
+
+/* media queries */
+@media (min-width: 701px) {
+  .dnone {
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .dnone {
+    display: none;
+  }
+}
+
+h1 {
+  font-size: 120px;
+  margin-bottom: 90px;
+  margin-top: 0;
+  padding: 150px 0 0;
+  color: #e38b29;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 20px;
+}
+
+.text-black {
+  color: #000;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+p {
+  padding: 20px 100px;
+}
+
+i { 
+  color:#000;
+  margin: 0 30px 30px 30px;
+}
+
+.card{
+  background-color: #ffffff;
+  margin-top: 200px;
+  padding: 50px;
+}
+
+.fa-house{
+  color: #ffffff;
+}
