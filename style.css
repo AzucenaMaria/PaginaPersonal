@@ -182,3 +182,12 @@ i {
 .fa-house{
   color: #ffffff;
 }
+
+.btn-img {
+  background-color: transparent;
+  border: none;
+}
+
+.img-modal {
+  width: 100%;
+}
