@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.btn-group-vertical {
+	
+	width: 90%;
+	text-align: center;
+}
+
+header, footer, section {
+	text-align: center;
+}
+
+.btn-pink-1{
+	background-color:#FF8E9E;
+	color: #EEEEEE;
+}
+
+.btn-pink-2{
+	background-color:#EEEEEE;
+	color: #FF597B;
+}
+
+.btn {
+ width: 30%;
+ margin: 10px;
+ padding: 10px;
+ height: 100px;
+ text-align: center;
+font-size: 21px !important;
+}
